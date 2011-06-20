@@ -1,0 +1,33 @@
+0. Build
+
+1.1
+
+1. Release package
+
+Structure of the build:
+
+root
+	codebase
+		applet-media-recorder.jar
+		jump3.jar
+	META-INF
+	WEB-INF
+	index.html
+
+2. Functionality
+
+- Selecting default sound device
+- Recording sound from a client mixer
+- Saving the data to a local mp3 file
+
+3. Installation
+
+unpack the build and copy the war file to your server webapp 
+
+4. Running
+
+run your tomcat and open URL http://localhost:8080/media-recorder-1.x
+
+5. Supported configurations
+
+Windows XP, Windows 7, Ubuntu 10.10
